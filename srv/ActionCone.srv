@@ -1,0 +1,4 @@
+string data
+bool apply
+---
+robotnik_msgs/ReturnMessage ret

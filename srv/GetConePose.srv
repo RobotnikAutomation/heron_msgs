@@ -1,0 +1,4 @@
+string direction
+---
+string cones_found
+geometry_msgs/PoseStamped cone_pose
