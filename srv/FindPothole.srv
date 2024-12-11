@@ -1,0 +1,6 @@
+sensor_msgs/Image image_rgb
+sensor_msgs/Image image_depth
+sensor_msgs/CameraInfo camera_info
+---
+geometry_msgs/PoseStamped center_of_mass
+float64 surface_area_m
