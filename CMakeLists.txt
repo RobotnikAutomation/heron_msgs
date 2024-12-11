@@ -24,6 +24,7 @@ set(SRV_FILES
   FindCrack.srv
   FindLaneEdge.srv
   FindPothole.srv
+  ChangeRobotMode.srv
 )
 
 set(ACT_FILES
