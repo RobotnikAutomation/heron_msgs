@@ -7,28 +7,31 @@ set(MSG_DEPS
   sensor_msgs
   geometry_msgs
   robotnik_msgs
-  )
+)
 
 find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
 
 set(MSG_FILES
-ConesStatus.msg
+  ConesStatus.msg
 )
 
 set(SRV_FILES
-SetNamedCone.srv
-ActionCone.srv
-SpawnObject.srv
-SetConstraint.srv
-GetConePose.srv
+  SetNamedCone.srv
+  ActionCone.srv
+  SpawnObject.srv
+  SetConstraint.srv
+  GetConePose.srv
+  FindCrack.srv
+  FindLaneEdge.srv
+  FindPothole.srv
 )
 
 set(ACT_FILES
-PickupFrom.action
-PlaceOn.action
-InitHolder.action
-MoveTo.action
-MoveToPose.action
+  PickupFrom.action
+  PlaceOn.action
+  InitHolder.action
+  MoveTo.action
+  MoveToPose.action
 )
 
 add_action_files(DIRECTORY action FILES ${ACT_FILES})
