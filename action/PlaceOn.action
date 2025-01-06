@@ -1,7 +1,7 @@
 # An action for placing an object to a location (in the robot or in the table)
 
 # The name of the location to where to place
-string in
+string location
 ---
 # If place was succesful
 bool success
