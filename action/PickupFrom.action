@@ -1,7 +1,7 @@
 # An action for picking up an object from a location (in the robot or in the table)
 
 # The name of the location from where to pick up 
-string from
+string location
 ---
 # If pickup was succesful
 bool success
