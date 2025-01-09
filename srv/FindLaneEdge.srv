@@ -5,3 +5,4 @@ bool is_right_side # Whether to give the RIGHT side of the lane (true) or LEFT s
 ---
 geometry_msgs/PointStamped start_point # Start is considered the CLOSEST 3D point to the camera
 geometry_msgs/PointStamped end_point # End is considered the FARTHEST 3D point to the camera
+bool success
