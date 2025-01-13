@@ -4,3 +4,4 @@ sensor_msgs/CameraInfo camera_info
 ---
 geometry_msgs/PoseStamped center_of_mass
 float64 surface_area_m
+bool success
