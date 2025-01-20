@@ -25,6 +25,7 @@ set(SRV_FILES
   FindLaneEdge.srv
   FindPothole.srv
   ChangeRobotMode.srv
+  TransformPose.srv
 )
 
 set(ACT_FILES
