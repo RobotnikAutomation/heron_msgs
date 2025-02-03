@@ -1,0 +1,5 @@
+geometry_msgs/PoseStamped defect_pose
+string defect_type
+---
+bool success
+geometry_msgs/PoseStamped offset_pose

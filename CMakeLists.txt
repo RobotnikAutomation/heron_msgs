@@ -26,6 +26,10 @@ set(SRV_FILES
   FindPothole.srv
   ChangeRobotMode.srv
   TransformPose.srv
+  GetDepositSeq.srv
+  FindOffset.srv
+  GetSynchedImages.srv
+  SendImageToKafka.srv
 )
 
 set(ACT_FILES
