@@ -1,5 +1,7 @@
 geometry_msgs/PoseStamped defect_pose
 string defect_type
+bool broadcast_to_tf
+string broadcast_frame
 ---
 bool success
 geometry_msgs/PoseStamped offset_pose
