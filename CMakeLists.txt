@@ -4,6 +4,7 @@ project(heron_msgs)
 set(MSG_DEPS
   std_msgs
   actionlib_msgs
+  nav_msgs 
   sensor_msgs
   geometry_msgs
   robotnik_msgs
@@ -30,6 +31,7 @@ set(SRV_FILES
   FindOffset.srv
   GetSynchedImages.srv
   SendImageToKafka.srv
+  FindCrackPath.srv
 )
 
 set(ACT_FILES
