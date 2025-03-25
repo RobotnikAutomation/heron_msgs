@@ -8,6 +8,7 @@ set(MSG_DEPS
   sensor_msgs
   geometry_msgs
   robotnik_msgs
+  nav_msgs
 )
 
 find_package(catkin REQUIRED COMPONENTS message_generation ${MSG_DEPS})
@@ -40,6 +41,7 @@ set(ACT_FILES
   InitHolder.action
   MoveTo.action
   MoveToPose.action
+  MoveThroughPath.action
 )
 
 add_action_files(DIRECTORY action FILES ${ACT_FILES})
