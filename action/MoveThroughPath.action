@@ -1,0 +1,14 @@
+# An action for moving the arm through a segmented path
+
+# The name of the location from where to pick up 
+nav_msgs/Path path
+---
+# If pickup was succesful
+bool success
+
+# Some informational message
+string message
+---
+
+# The internal state that the pickup action currently is in
+string state
