@@ -1,0 +1,7 @@
+geometry_msgs/PointStamped start_point # Start is considered the CLOSEST 3D point to the camera
+geometry_msgs/PointStamped end_point # End is considered the FARTHEST 3D point to the camera
+sensor_msgs/Image segmentation_mask
+---
+nav_msgs/Path path
+geometry_msgs/PoseStamped middle_pose # middle of path
+bool success
